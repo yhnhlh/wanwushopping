@@ -1,0 +1,49 @@
+
+server:
+  port: 9006
+
+logging:
+  pattern:
+    console: '%d{HH:mm:ss.SSS} %clr(%-5level) ---  [%-15thread] %cyan(%-50logger{50}):%msg%n'
+
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: bz_
+      id-type: auto
+  configuration:
+    map-underscore-to-camel-case: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///shopping?serverTimezone=UTC
+    username: root
+    password: 123456
+
+  # redis
+  redis:
+    host: 192.168.66.100
+    port: 6379
+    timeout: 30000
+    jedis:
+      pool:
+        max-idle: 8
+        max-wait: -1
+        max-active: 8
+        min-idle: 0
+
+dubbo:
+  application:
+    name: shopping_user_service
+  registry:
+    address: zookeeper://192.168.66.100
+    port: 2181
+    timeout: 10000
+  protocol:
+    name: dubbo
+    port: -1
+  scan:
+    base-packages: com.yhn.shopping_user_service.service
+

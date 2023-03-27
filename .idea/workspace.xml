@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="577b93f5-9987-4479-937d-4c188282d40d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.8.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.8.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MzqAAf3HPB4EGZzYz1cvKSOMiG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/shopping_seckill_customer_api/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yhn.shopping_manager_api.security" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\shopping\shopping_seckill_customer_api\src\main\resources" />
+      <recent name="D:\shopping\shopping_seckill_service\src\main\resources" />
+      <recent name="D:\shopping\shopping_pay_service\src\main\resources" />
+      <recent name="D:\shopping\shopping_order_customer_api\src\main\resources" />
+      <recent name="D:\shopping\shopping_order_service\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ShoppingPayServiceApplication">
+    <configuration name="ShoppingGoodsServiceApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shopping_goods_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yhn.shopping_goods_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yhn.shopping_goods_service" />
+      <option name="MAIN_CLASS_NAME" value="com.yhn.shopping_goods_service.ShoppingGoodsServiceApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingGoodsServiceApplicationTests.testSyncGoodsToES" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shopping_goods_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yhn.shopping_goods_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yhn.shopping_goods_service" />
+      <option name="MAIN_CLASS_NAME" value="com.yhn.shopping_goods_service.ShoppingGoodsServiceApplicationTests" />
+      <option name="METHOD_NAME" value="testSyncGoodsToES" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingMessageServiceApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shopping_message_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yhn.shopping_message_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yhn.shopping_message_service" />
+      <option name="MAIN_CLASS_NAME" value="com.yhn.shopping_message_service.ShoppingMessageServiceApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingAdminServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping_admin_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yhn.shopping_admin_service.ShoppingAdminServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCartCustomerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping_cart_customer_api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yhn.shopping_cart_customer_api.ShoppingCartCustomerApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCartServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping_cart_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yhn.shopping_cart_service.ShoppingCartServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCategoryCustomerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping_category_customer_api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yhn.shopping_category_customer_api.ShoppingCategoryCustomerApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCategoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping_category_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yhn.shopping_category_service.ShoppingCategoryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping_common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yhn.shopping_common.ShoppingCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingFileServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping_file_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yhn.shopping_file_service.ShoppingFileServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingGoodsServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping_goods_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yhn.shopping_goods_service.ShoppingGoodsServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingManagerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping_manager_api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yhn.shopping_manager_api.ShoppingManagerApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingMessageServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping_message_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yhn.shopping_message_service.ShoppingMessageServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingOrderCustomerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping_order_customer_api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yhn.shopping_order_customer_api.ShoppingOrderCustomerApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingOrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping_order_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yhn.shopping_order_service.ShoppingOrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingPayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping_pay_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yhn.shopping_pay_service.ShoppingPayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingSearchCustomerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping_search_customer_api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yhn.shopping_search_customer_api.ShoppingSearchCustomerApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingSearchServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping_search_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yhn.shopping_search_service.ShoppingSearchServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingSeckillCustomerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping_seckill_customer_api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yhn.shopping_seckill_customer_api.ShoppingSeckillCustomerApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingSeckillServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping_seckill_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yhn.shopping_seckill_service.ShoppingSeckillServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingUserCustomerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping_user_customer_api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yhn.shopping_user_customer_api.ShoppingUserCustomerApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingUserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping_user_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yhn.shopping_user_service.ShoppingUserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ShoppingGoodsServiceApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.ShoppingGoodsServiceApplicationTests.testSyncGoodsToES" />
+      <item itemvalue="JUnit.ShoppingMessageServiceApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.ShoppingPayServiceApplication" />
+      <item itemvalue="Spring Boot.ShoppingSearchCustomerApiApplication" />
+      <item itemvalue="Spring Boot.ShoppingFileServiceApplication" />
+      <item itemvalue="Spring Boot.ShoppingAdminServiceApplication" />
+      <item itemvalue="Spring Boot.ShoppingCategoryCustomerApiApplication" />
+      <item itemvalue="Spring Boot.ShoppingCategoryServiceApplication" />
+      <item itemvalue="Spring Boot.ShoppingCommonApplication" />
+      <item itemvalue="Spring Boot.ShoppingGoodsServiceApplication" />
+      <item itemvalue="Spring Boot.ShoppingManagerApiApplication" />
+      <item itemvalue="Spring Boot.ShoppingSearchServiceApplication" />
+      <item itemvalue="Spring Boot.ShoppingUserServiceApplication" />
+      <item itemvalue="Spring Boot.ShoppingUserCustomerApiApplication" />
+      <item itemvalue="Spring Boot.ShoppingMessageServiceApplication" />
+      <item itemvalue="Spring Boot.ShoppingCartServiceApplication" />
+      <item itemvalue="Spring Boot.ShoppingCartCustomerApiApplication" />
+      <item itemvalue="Spring Boot.ShoppingOrderServiceApplication" />
+      <item itemvalue="Spring Boot.ShoppingOrderCustomerApiApplication" />
+      <item itemvalue="Spring Boot.ShoppingSeckillServiceApplication" />
+      <item itemvalue="Spring Boot.ShoppingSeckillCustomerApiApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ShoppingMessageServiceApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.ShoppingGoodsServiceApplicationTests.testSyncGoodsToES" />
+        <item itemvalue="JUnit.ShoppingGoodsServiceApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="577b93f5-9987-4479-937d-4c188282d40d" name="Default Changelist" comment="" />
+      <created>1678780612785</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678780612785</updated>
+      <workItem from="1678780615591" duration="7848000" />
+      <workItem from="1678788729341" duration="3123000" />
+      <workItem from="1678794555565" duration="10215000" />
+      <workItem from="1678845311390" duration="6175000" />
+      <workItem from="1678860380551" duration="9292000" />
+      <workItem from="1678870773591" duration="1730000" />
+      <workItem from="1678882550270" duration="5210000" />
+      <workItem from="1678954645621" duration="14395000" />
+      <workItem from="1679020414672" duration="3553000" />
+      <workItem from="1679035125715" duration="15806000" />
+      <workItem from="1679451540336" duration="2530000" />
+      <workItem from="1679467065238" duration="11778000" />
+      <workItem from="1679484541853" duration="8107000" />
+      <workItem from="1679553119375" duration="4035000" />
+      <workItem from="1679566639113" duration="7780000" />
+      <workItem from="1679792243348" duration="29437000" />
+      <workItem from="1679899673470" duration="734000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1679476783694">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1679476783694" />
+    <state x="479" y="213" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1678790623391">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="479" y="213" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1678790623391" />
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1679833112979">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1679833112979" />
+    <state x="450" y="279" width="636" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1679817446837">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="450" y="279" width="636" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1679817446837" />
+    <state x="454" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1679801628243">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="454" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1679801628243" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1679899730945">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1679899730945" />
+    <state width="1014" height="443" key="GridCell.Tab.0.bottom" timestamp="1679838472775">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1014" height="443" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1679838472775" />
+    <state width="1014" height="443" key="GridCell.Tab.0.center" timestamp="1679838472775">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1014" height="443" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1679838472775" />
+    <state width="1014" height="443" key="GridCell.Tab.0.left" timestamp="1679838472775">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1014" height="443" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1679838472775" />
+    <state width="1014" height="443" key="GridCell.Tab.0.right" timestamp="1679838472775">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1014" height="443" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1679838472775" />
+    <state width="1014" height="443" key="GridCell.Tab.1.bottom" timestamp="1679838472775">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1014" height="443" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1679838472775" />
+    <state width="1014" height="443" key="GridCell.Tab.1.center" timestamp="1679838472775">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1014" height="443" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1679838472775" />
+    <state width="1014" height="443" key="GridCell.Tab.1.left" timestamp="1679838472775">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1014" height="443" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1679838472775" />
+    <state width="1014" height="443" key="GridCell.Tab.1.right" timestamp="1679838472775">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1014" height="443" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1679838472775" />
+    <state width="1478" height="258" key="GridCell.Tab.2.bottom" timestamp="1678794521177">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="258" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1678794521177" />
+    <state width="1478" height="258" key="GridCell.Tab.2.center" timestamp="1678794521177">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="258" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1678794521177" />
+    <state width="1478" height="258" key="GridCell.Tab.2.left" timestamp="1678794521177">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="258" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1678794521177" />
+    <state width="1478" height="258" key="GridCell.Tab.2.right" timestamp="1678794521177">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="258" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1678794521177" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1679899761944">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1679899761944" />
+    <state x="468" y="10" width="600" height="804" key="find.popup" timestamp="1678860924440">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="468" y="10" width="600" height="804" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1678860924440" />
+    <state x="41" y="46" key="new project wizard" timestamp="1679826930287">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="41" y="46" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1679826930287" />
+  </component>
+</project>

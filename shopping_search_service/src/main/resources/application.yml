@@ -1,0 +1,31 @@
+
+server:
+  port: 9008
+
+logging:
+  pattern:
+    console: '%d{HH:mm:ss.SSS} %clr(%-5level) ---  [%-15thread] %cyan(%-50logger{50}):%msg%n'
+
+spring:
+  # elasticsearch
+  elasticsearch:
+    uris: http://192.168.66.100:9200
+  rabbitmq:
+    host: 192.168.66.100
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+dubbo:
+  application:
+    name: shopping_search_service
+  registry:
+    address: zookeeper://192.168.66.100
+    port: 2181
+    timeout: 10000
+  protocol:
+    name: dubbo
+    port: -1
+  scan:
+    base-packages: com.yhn.shopping_search_service.service
+

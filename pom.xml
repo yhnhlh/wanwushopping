@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+
+    <groupId>com.yhn</groupId>
+    <artifactId>shopping</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <!-- 该工程为SpringBoot工程 -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.7.0</version>
+        <relativePath/>
+    </parent>
+
+
+    <!-- 子模块 -->
+    <modules>
+        <!--  通用模块，包含实体类、服务接口、工具类等  -->
+        <module>shopping_common</module>
+        <!--   商品服务   -->
+        <module>shopping_goods_service</module>
+        <!--   后台用户服务  -->
+        <module>shopping_admin_service</module>
+        <!-- 广告服务 -->
+        <module>shopping_category_service</module>
+
+        <!-- 文件服务 -->
+        <module>shopping_file_service</module>
+
+        <!-- 搜索服务 -->
+        <module>shopping_search_service</module>
+
+        <!-- 用户服务 -->
+        <module>shopping_user_service</module>
+
+        <!-- 短信服务 -->
+        <module>shopping_message_service</module>
+
+        <!-- 购物车服务 -->
+        <module>shopping_cart_service</module>
+
+        <!-- 订单服务 -->
+        <module>shopping_order_service</module>
+        <!-- 支付服务 -->
+        <module>shopping_pay_service</module>
+
+        <!-- 秒杀服务 -->
+        <module>shopping_seckill_service</module>
+
+        <!--   管理员管理网站操作的api  -->
+        <module>shopping_manager_api</module>
+
+        <!-- 网站用户操作广告暴露的api -->
+        <module>shopping_category_customer_api</module>
+
+        <!-- 用户搜索暴露的api -->
+        <module>shopping_search_customer_api</module>
+
+        <!-- 用户业务的api -->
+        <module>shopping_user_customer_api</module>
+
+        <!-- 购物车api -->
+        <module>shopping_cart_customer_api</module>
+        <!-- 订单api -->
+        <module>shopping_order_customer_api</module>
+
+        <!-- 秒杀api -->
+        <module>shopping_seckill_customer_api</module>
+    </modules>
+
+
+
+
+</project>

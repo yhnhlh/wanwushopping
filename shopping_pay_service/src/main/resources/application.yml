@@ -1,0 +1,44 @@
+
+server:
+  port: 9011
+
+logging:
+  pattern:
+    console: '%d{HH:mm:ss.SSS} %clr(%-5level) ---  [%-15thread] %cyan(%-50logger{50}):%msg%n'
+
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: bz_
+      id-type: auto
+  configuration:
+    map-underscore-to-camel-case: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///shopping?serverTimezone=UTC
+    username: root
+    password: 123456
+
+dubbo:
+  application:
+    name: shopping_pay_service
+  registry:
+    address: zookeeper://192.168.66.100
+    port: 2181
+    timeout: 10000
+  protocol:
+    name: dubbo
+    port: -1
+  scan:
+    base-packages: com.yhn.shopping_pay_service.service
+
+alipay:
+  appId: 2016101800712580
+  privateKey: MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCEcetn4vVF+KnHaSJ0JqdoQklCiOdFFHFhyhixN7EKxJ5kEWw7agl6nbbduG3vy8YqDPCFBHFMYSxViNF4QilBZOSNP7TJfIAjXkWxJhPPdDAMi9dVFIqR9CsvTSjbK0g4d+4+RyLZ9rv9fhktRbPpype7KcCZkFLGtNFVqWxihxdKMUh6ZIbrYzMDNI/6K361XG6KxxDSN4woS49Ygne6tJ2N8HUSws2Mk+fjRbDLg0gTySrqT/wM83RYcnp3H3o898WJ1v6ipBDMtrmIHl7huSRiQs/nH2ttflHZ5Qc7c+JP+Rn8IGmfiF+uWdMwxhrUNZIPctLLqeZTX5ZOvnylAgMBAAECggEBAIJMfPbAbuL+xzD6er3ghVPp2p8NhtEMUpuNMouuqYtZciYqidtN77Nk09H/rpB6XiNihYGnpDsrYm1n5AQ2utWuB7f6k8ahqIKjLVchid3PhbHiJd97DPSYTaAEfgxY4X1EZ+t3Go9q0PmLhANpDp4UBQBKDERHm1gH7eYjfxDSPNmeXHDPyssD8h7ASSQgGLUrmhos+YYkQ37MRHm+EKDEqhueeYIYOZ8evEsPyEEtFSx4YOaE9Tzvh3BuwxdzzEPJjE55If5x4wTo6cp/ZfceI5FXW91+VK5zfL2d+qktJfqwZ5o+pPju/TP2lyMf6g1y/q3zCctDa8uAt1zY+sECgYEA2tyZOIgUbwpLZVi6R2nQUCT/jzt94cH7N4e5jCPXdc+YP+PXveVAv1Av5wVHdBxhwBlfo1OpnYsFcwuJcWj4LPqZx9pF3EWDA1eqoSjttwtF6tqWoaYEukxvMC59dNJdF4qu8nNqxt7Sk0fdIrDmLy34UJUYQ6sgMovDFDm/NpUCgYEAmutcF1XDB6HzXocqhx84CxkbTUdG6fSzbJPFMxQRWrpZ/S/17+kRrMEHXodhMHqWbRp53e2W1Vyhp3y29f7yYzzfZ/T9a7F3tyuh5ILXOLZfK7r/+11WguCVv2YDQV4MOM5/8Sq754QfvFLnvRE/XxI+1+31+oZZcrsXGlBc+dECgYADvYFg1fKDc0mWkc2dKtHEjN1RNVMRaJ9Cc69YFcS43rNbZClrtV9F5bjr2cs+0L1a6xQXVnavmpCdRrUymviizCWUpMZM3WM/y1+/IVPurOKlANdSK+QoyuWbjS/Xr0CoBla3DgHlJCm1GqVM0nkclUyJFAM2JNaIBptu3Q3HgQKBgG3UOh+Y/4FjwWPcs7vD2DmV/RMWWyH2B1YMlRuXOI532uBypgsF0zAEUTMlCzQRVJ/Yy1kY3Xw6Baj188gGjNTqDQBoYVl+IX9MgaO9VtOwB1y7YEtWasSyb7eXnOs0v7luPKo/P6PsuYsLw5r4pVLDXqY6385SfQuns8NGAgRhAoGBANl3bs3SO9gH9XcUO1vGrocJ2fsmEkU5nxregC8VP+/ipsak2GA/woTLwa9ZXEq5+lAIK8DhioZrgw3rDnJ1pDwOC217V4C9K3S+m4iEFw4+S8qzC/GDuhnCG6Tt54RDtIc6slmQ3Q19OYozILaVRP0rGJPvHNOOXShQjFVzHv2T
+  publicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvMvCDkr4rtpYywjn9CO10Xa4MOad1Sm66mI9OPjD0bpVSYejawo0EOU0pV/v/VRYoNjx/kNdA+caGcTuUB90y5PseWV2ClZRf+q/sjVDVCeq+2IPGn8A3IRT1ZHgA9DJy4ilOJIXOvkhAadFKX1V+ZYKwk6fSuAOPr1LILmMzOdiBzkRy++NTVoke/vKQaIFFN0N07AdLl4epf/YfZ/kPRrHqY9zzoqqfdQOKTWOAk3hdEOzY8BPq4o4R+a0+nWRdvT3yyC9KNsbUAJXUklgY/pwFjtQl7y8YUO1267s6WMqIwNZ51LY9ndh3Dfkp0750icCNOdozwh/Rm+hbPh6AwIDAQAB
+  gateway: https://openapi.alipaydev.com/gateway.do
+  notifyUrl: http://kalista.natapp1.cc
+  pcNotify: /user/payment/success/notify

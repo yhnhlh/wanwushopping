@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shopping_search_service" />
+        <module name="shopping_user_service" />
+        <module name="shopping_category_customer_api" />
+        <module name="shopping_cart_customer_api" />
+        <module name="shopping_file_service" />
+        <module name="shopping_manager_api" />
+        <module name="shopping_user_customer_api" />
+        <module name="shopping_order_service" />
+        <module name="shopping_seckill_service" />
+        <module name="shopping_message_service" />
+        <module name="shopping_search_customer_api" />
+        <module name="shopping_category_service" />
+        <module name="shopping_cart_service" />
+        <module name="shopping_goods_service" />
+        <module name="shopping_common" />
+        <module name="shopping_pay_service" />
+        <module name="shopping_admin_service" />
+        <module name="shopping_seckill_customer_api" />
+        <module name="shopping_order_customer_api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="shopping_admin_service" options="-parameters" />
+      <module name="shopping_cart_customer_api" options="-parameters" />
+      <module name="shopping_cart_service" options="-parameters" />
+      <module name="shopping_category_customer_api" options="-parameters" />
+      <module name="shopping_category_service" options="-parameters" />
+      <module name="shopping_common" options="-parameters" />
+      <module name="shopping_file_service" options="-parameters" />
+      <module name="shopping_goods_service" options="-parameters" />
+      <module name="shopping_manager_api" options="-parameters" />
+      <module name="shopping_message_service" options="-parameters" />
+      <module name="shopping_order_customer_api" options="-parameters" />
+      <module name="shopping_order_service" options="-parameters" />
+      <module name="shopping_pay_service" options="-parameters" />
+      <module name="shopping_search_customer_api" options="-parameters" />
+      <module name="shopping_search_service" options="-parameters" />
+      <module name="shopping_seckill_customer_api" options="-parameters" />
+      <module name="shopping_seckill_service" options="-parameters" />
+      <module name="shopping_user_customer_api" options="-parameters" />
+      <module name="shopping_user_service" options="-parameters" />
+    </option>
+  </component>
+</project>

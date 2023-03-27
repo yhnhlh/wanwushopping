@@ -1,0 +1,2 @@
+# 启动时自动扫描全局异常处理类
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.yhn.shopping_common.exception.GlobalExceptionHandler

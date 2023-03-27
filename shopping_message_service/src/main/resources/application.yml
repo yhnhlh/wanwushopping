@@ -1,0 +1,27 @@
+
+server:
+  port: 9007
+
+logging:
+  pattern:
+    console: '%d{HH:mm:ss.SSS} %clr(%-5level) ---  [%-15thread] %cyan(%-50logger{50}):%msg%n'
+
+
+
+dubbo:
+  application:
+    name: shopping_message_service
+  registry:
+    address: zookeeper://192.168.66.100
+    port: 2181
+    timeout: 10000
+  protocol:
+    name: dubbo
+    port: -1
+  scan:
+    base-packages: com.yhn.shopping_message_service.service
+
+message:
+  accessKeyId: LTAI5tB6MdUxPHKhQjrvVij8
+  accessKeySecret: 0xaEkzLJ6y6JPZ1mEQmIA3iweOjlvB
+
